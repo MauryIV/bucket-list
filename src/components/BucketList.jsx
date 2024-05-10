@@ -10,8 +10,16 @@ function BucketList() {
     if (!item.text) {
       return;
     }
-    const addToBucket = [item, ...bucket];
-    setBucket(addToBucket)
+    let addToBucket = [];
+    let highEagerness = bucket.filter((b) => b.eagerness === 'high')
+    if (item.eagerness === 'high') {
+      addToBucket = [...highEagerness, item, ...bucket.filter((b) => b.eagerness !== 'high')];
+    } else if (item.eagerness === 'medium') {
+      addToBucket = [...highEagerness, ...bucket.filter((b) => b.eagerness === 'medium'), item, ...bucket.filter((b) => b.eagerness === 'low')];
+    } else {
+      addToBucket = [...bucket, item];
+    }
+    setBucket(addToBucket);
   };
 
   // Function to mark bucket list item as complete
