@@ -35,7 +35,8 @@ This would be a good reference for using React.
 
 <a id="Visuals"></a>
 ## Visuals
-NA
+![Screenshot 2024-05-10 at 5 43 13 PM](https://github.com/MauryIV/bucket-list/assets/146037880/3ed30269-4ccd-4582-b7cc-250573c79f6f)
+![Screenshot 2024-05-10 at 5 44 32 PM](https://github.com/MauryIV/bucket-list/assets/146037880/232b2afa-7c49-4dd7-bdec-a97ed72d1d03)
 
 <a id="tests"></a>
 ## Tests
