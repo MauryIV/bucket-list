@@ -1,50 +1,70 @@
-# Module 20 Mini-Project: Bucket List
+<a id="title"></a>
+# Bucket List 
 
-In this mini-project, you are given starter code for a React Bucket List app. Some pieces of the application are not complete, and it is your mission to take what you have learned so far and complete the app.
+<a id="description"></a>
+## Description
+This is a simple program using React in oder to create an interactive page. On this page you can create a bucket list and have them organized by priority.
 
-This project invites you to use most of the concepts you've learned in this module. You will manage state using the `useState` Hook, pass data as props to child components, and use lists and keys to render a list of bucket-list items.
+## Table of Contents
+- [Title](#title)
+- [Description](#description)
+- [Badges](#badges)
+- [Visuals](#visuals)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Authors and Acknowledgment](#acknowledgment)
+- [License](#license)
+- [Project Status](#status)
 
-## Activity
+<a id="badges"></a>
+## Badges
+![Maury Hughes IV](https://img.shields.io/badge/Maury%20Hughes%20IV-5A2BE2) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com) [![Minimum node.js version](https://badgen.net/npm/node/express)](https://npmjs.com/package/express) [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [![git](https://badgen.net/badge/icon/git?icon=git&label)](https://git-scm.com) [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Work with your group to resolve the following issues:
+<a id="installation"></a>
+## Installation
+Will need to install everything listed inside of the package.json file by running an npm i command.
 
-* As a user, I want to be able to able to enter a bucket-list item.
+<a id="usage"></a>
+## Usage
+This would be a good reference for using React.
 
-* As a user, I want to be able to set the eagerness level of a bucket-list item.
+<a id="Visuals"></a>
+## Visuals
+NA
 
-* As a user, I want to see a list of all my bucket-list items after they are added, with colors that identify their eagerness level.
+<a id="tests"></a>
+## Tests
+I just went about testing in the localhost:3000
 
-* As a user, I want to be able to edit and delete bucket-list items.
+<a id="questions"></a>
+## Questions
+If you have any questions about the contents. Please feel free to reach out!
+Here is my [Github](https://github.com/MauryIV) as well as my email <mauryhughesiv@gmail.com>.
 
-## Acceptance Criteria
+<a id="roadmap"></a>
+## Roadmap
+NA
 
-* It's done when I write logic to add a bucket-list item in `components/BucketList.jsx`.
+<a id="contributing"></a>
+## Contributing
+Always open for contributions and suggestions.
 
-* It's done when I write logic to mark a bucket-list item as complete or incomplete.
+<a id="acknowledgment"></a>
+## Authors and Acknowledgment
+All of the starter code from the initial commit is from DU Coding Bootcamp.
 
-* It's done when I write logic that will remove a bucket-list item from the list.
+<a id="license"></a>
+## License
+MIT License © 2024 Maury Hughes IV
+Please refer to this link, [License: MIT](https://opensource.org/licenses/MIT) for more information.
 
-* It's done when I write logic to update a bucket-list item in `components/Bucket.jsx`.
+<a id="status"></a>
+## Project Status
+Complete
 
-* It's done when I write logic to render a list of bucket-list items using `.map`.
-
-* It's done when each bucket-list item has a color that corresponds to the priority or "eagerness" to complete.
-
-* It's done when each bucket-list item renders a button to edit and delete the item.  
-
----
-
-## 💡 Hints
-
-* How can we use string interpolation in `className` attributes to help change the color of the bucket-list items?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* Which React Hooks could we use in combination with local storage to make the bucket list persist after refreshes?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+[back to top](#title)
